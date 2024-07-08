@@ -1,0 +1,11 @@
+name: pulumi_demo
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+description: learn pulumi
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
